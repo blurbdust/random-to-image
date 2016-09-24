@@ -29,8 +29,8 @@ def main(argv):
     
     for x in range(0, num):
         if num > 0:
-            filename += "_" + str(num)
-        random_fill(picture, width, height, filename)
+            tmp = filename + "_" + str(x)
+        random_fill(picture, width, height, tmp)
         
 
         
